@@ -5,6 +5,9 @@ Sorting is the most common operation run on sets of data. Whether we're sorting 
 
 There are many MANY sorting algorithms out there, ranging from `O(n^2)` algorithms to `O(nlog(n))` to even `O(n)` as you'll see today. So let's get to programming!
 
+For all of these sorts, you should be sorting vectors over the interval of iterators passed to you. So your headers should take the form:
+    template <typename T>
+    void insertion_sort(vector<T> &, vector<T>::iterator, vector<T>::iterator);
 
 Insertion Sort
 --------------
