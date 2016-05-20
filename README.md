@@ -27,6 +27,10 @@ Shell Sort
 
 Now that you understand how Insertion Sort works, let's step it up a notch for this next one. Shell Sort is the evolved cousin of Insertion Sort. The algorithm is very similar (so similar that you could probably reuse some of your code here). However, Shell Sort manages to be a LOT faster.
 
+For your Shell Sort use the following jump lengths:
+    
+    {1750, 701, 301, 132, 57, 23, 10, 4, 1}
+
 For a visualization of Shell Sort, again please see [this page](https://www.cs.usfca.edu/~galles/visualization/ComparisonSort.html).
 
 Counting Sort
