@@ -7,8 +7,11 @@ There are many MANY sorting algorithms out there, ranging from `O(n^2)` algorith
 
 For all of these sorts, you should be sorting vectors over the interval of iterators passed to you. So your headers should take the form:
     
-    template <typename T>
-    void insertion_sort(vector<T> &v, typename vector<T>::iterator from, typename vector<T>::iterator to) {
+    void insertion_sort(vector<int> &v, vector<int>::iterator from, vector<int>::iterator to) {
+
+OR
+
+    void insertion_sort(vector<int> &v, int from, int to) {
 
 Insertion Sort
 --------------
