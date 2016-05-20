@@ -31,5 +31,5 @@ Counting Sort
 
 Assume for this problem that you have a set of Midterm scores for a class (where the midterm was out of 100 and there were no partial points so everything is integers). Write a function to sort the scores using Bucket Sort.
 
-*🍲 for 💭:How long should the array be for this sort?*
+*🍲 for 🌯:How long should the array be for this sort?*
 
