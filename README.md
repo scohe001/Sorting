@@ -22,10 +22,10 @@ Now that you understand how Insertion Sort works, let's step it up a notch for t
 
 For a visualization of Shell Sort, again please see [this page](https://www.cs.usfca.edu/~galles/visualization/ComparisonSort.html).
 
-Bucket Sort
+Counting Sort
 -----------
 
 Assume for this problem that you have a set of Midterm scores for a class (where the midterm was out of 100 and there were no partial points so everything is integers). Write a function to sort the scores using Bucket Sort.
 
-Here since we have a set of data over a finite small interval of numbers, our bucket sort can directly map its buckets to values. Meaning you should make an array of length 100 for this sort.
+*Hint: Make an array of length 100 for this sort*
 
